@@ -1,0 +1,38 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c8a1ce; /* Fundo lilás bem suave (quase branco) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.cartao-container {
+    background-color: #ffd5d5; /* Fundo branco para o cartão */
+    width: 350px;
+    text-align: center;
+    /* Box Model */
+    border: 4px solid #cc9bd4; /* Borda em lilás médio */
+    padding: 30px; /* Preenchimento interno */
+    margin: 40px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(80, 58, 167, 0.436); /* Sombra mais sutil */
+}
+
+.nome-completo {
+    color: #933aff; /* Roxo escuro para o nome */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cargo {
+    color: #183f31; /* Roxo médio para o cargo */
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.contato {
+    color: #9c27b0; /* Roxo vibrante para o contato */
+    font-size: 0.9em;
+}
